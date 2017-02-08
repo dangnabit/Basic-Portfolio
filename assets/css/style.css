@@ -42,10 +42,12 @@ p {
   font-size: 23pt;
   font-weight: bold;
 }
-.wrapper{
-	min-height: 100%;
 
-}
+
+/*.wrapper {
+  min-height: 100%;
+}*/
+
 header {
   position: relative;
   top: 0;
@@ -161,9 +163,11 @@ section {
   background: #ffffff;
   padding: 0;
 }
-.push{
-	height: 180px;
+
+.push {
+  height: 180px;
 }
+
 #footer {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background: #666666;
@@ -178,8 +182,8 @@ section {
   border-top-width: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 90px; 
-	z-index: 1000;
+  margin-top: 90px;
+  z-index: 1000;
 }
 
 #form {
@@ -252,7 +256,6 @@ div.port {
   display: inline;
   overflow: auto;
   margin-bottom: 40px;
-
 }
 
 .portimg {
@@ -276,14 +279,14 @@ h4 {
   padding-bottom: 20px;
 }
 
-h4:hover{
-	background: #ffffff;
-	color: #4aaaac;
-	border-style: solid;
-	border-color: #4aaaac;
-	border-width: 3px;
+h4:hover {
+  background: #ffffff;
+  color: #4aaaac;
+  border-style: solid;
+  border-color: #4aaaac;
+  border-width: 3px;
+  box-sizing: border-box;
 }
-
 
 .port.portl {
   float: left;
